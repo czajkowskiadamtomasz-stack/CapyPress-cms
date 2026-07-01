@@ -3,34 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CapyPress – Lekka alternatywa dla WordPressa</title>
-    <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }
-        .hero { text-align: center; padding: 50px 0; }
-        .btn { display: inline-block; padding: 12px 24px; background: #2ea44f; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
-        .support { margin-top: 50px; padding: 20px; background: #f6f8fa; border-radius: 6px; text-align: center; }
-    </style>
+    <title>CapyPress – Lekki CMS w Pythonie</title>
+    <meta name="description" content="CapyPress to nowoczesny, ultrawydajny CMS stworzony przy pomocy AI, oparty na Pythonie. Idealny dla programistów i twórców treści." />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="hero">
-        <h1>CapyPress</h1>
-        <p>Twoja lekka, stworzona przy pomocy AI alternatywa dla ciężkich CMS-ów.</p>
-        <a href="https://github.com/TWÓJ_LOGIN/CapyPress/releases/latest/download/capypress.zip" class="btn">Pobierz CapyPress (.zip)</a>
+
+    <div class="site-wrapper">
+
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="brand">
+                    <img src="capypress-logo.png" alt="CapyPress Logo" class="logo-img">
+                    <span class="brand-text">CapyPress</span>
+                </div>
+                <nav class="main-nav">
+                    <a href="#features">Funkcje</a>
+                    <a href="#install">Instalacja</a>
+                    <a href="#support" class="nav-btn-support">Wesprzyj</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container hero-inner">
+                <span class="tech-tagline">Napisany w Pythonie. Zbudowany przez AI.</span>
+                <h1>CapyPress – <span class="highlight">Lekki CMS w Pythonie</span></h1>
+                <p class="hero-description">
+                    CapyPress to nowoczesna, ultrawydajna alternatywa dla WordPressa. Zarządzaj treścią bez zbędnego obciążenia.
+                    Zbudowany dla szybkości, elastyczności i łatwości programowania.
+                </p>
+                <div class="hero-cta">
+                    <a href="#install" class="btn-primary">Pobierz CapyPress Alpha</a>
+                    <span class="version-label">Wersja v0.1.0</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Rdzeń technologii</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="card-icon-wrapper">
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%2300bcd4'><path d='M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm19.6 29.1c2.8 0 5.1 2.3 5.1 5.1 0 2.8-2.3 5.1-5.1 5.1H65v6.5c0 4.2-3.4 7.6-7.6 7.6H47v7.6c0 4.2-3.4 7.6-7.6 7.6h-7.7c-2.8 0-5.1-2.3-5.1-5.1 0-2.8 2.3-5.1 5.1-5.1h7.7v-7.6c0-4.2 3.4-7.6 7.6-7.6h10.4v-6.5c0-4.2 3.4-7.6 7.6-7.6h4.2zm-24.6 1.3c-2.8 0-5.1 2.3-5.1 5.1 0 2.8 2.3 5.1 5.1 5.1H35v6.5c0 4.2-3.4 7.6-7.6 7.6H16v7.6c0 4.2-3.4 7.6-7.6 7.6H0v-7.7c0-4.2 3.4-7.6 7.6-7.6h7.7v-7.6c0-4.2 3.4-7.6 7.6-7.6h10.4v-6.5c0-4.2 3.4-7.6 7.6-7.6h4.2zm24.5 43.6c2.8 0 5.1 2.3 5.1 5.1 0 2.8-2.3 5.1-5.1 5.1H65v6.5c0 4.2-3.4 7.6-7.6 7.6H47v7.6c0 4.2-3.4 7.6-7.6 7.6h-7.7c-2.8 0-5.1-2.3-5.1-5.1 0-2.8 2.3-5.1 5.1-5.1h7.7v-7.6c0-4.2 3.4-7.6 7.6-7.6h10.4v-6.5c0-4.2 3.4-7.6 7.6-7.6h4.2zm-24.6 1.3c-2.8 0-5.1 2.3-5.1 5.1 0 2.8 2.3 5.1 5.1 5.1H35v6.5c0 4.2-3.4 7.6-7.6 7.6H16v7.6c0 4.2-3.4 7.6-7.6 7.6H0V84.8c0-4.2 3.4-7.6 7.6-7.6h7.7v-7.6c0-4.2 3.4-7.6 7.6-7.6h10.4v-6.5c0-4.2 3.4-7.6 7.6-7.6h4.2z'/></svg>" alt="Python Logo Icon" class="card-icon">
+                        </div>
+                        <h3>Lekki Kod w Pythonie</h3>
+                        <p>Zbudowany na nowoczesnym, wydajnym frameworku Pythona. Czysty kod, który łatwo zrozumieć i rozszerzać.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="card-icon-wrapper">
+                           <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2339ff14' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points='7 10 12 15 17 10'/><line x1='12' y1='15' x2='12' y2='3'/></svg>" alt="ZIP Icon" class="card-icon">
+                        </div>
+                        <h3>Prosty Instalator</h3>
+                        <p>Zapomnij o skomplikowanej konfiguracji serwera. Pobierz paczkę ZIP, rozpakuj i uruchom kreator w przeglądarce.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="card-icon-wrapper">
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2339ff14' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><line x1='2' y1='12' x2='22' y2='12'/><path d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'/></svg>" alt="Globe Icon" class="card-icon">
+                        </div>
+                        <h3>Minimalistyczna Architektura</h3>
+                        <p>Skupiamy się na tym, co najważniejsze: zarządzaniu treścią. Bez wodotrysków, które spowalniają stronę.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer id="support" class="site-footer">
+            <div class="container footer-content">
+                <div class="footer-left">
+                    <div class="brand footer-brand">
+                        <img src="capypress-logo.png" alt="CapyPress Logo" class="logo-img logo-img-sm">
+                        <span class="brand-text brand-text-sm">CapyPress</span>
+                    </div>
+                    <p class="footer-copyright">&copy; 2026. Projekt Open Source na licencji MIT.</p>
+                </div>
+                <div class="footer-right">
+                    <p>Doceniasz projekt? Wesprzyj jego rozwój!</p>
+                    <a href="https://buycoffee.to/TWOJ_LOGIN" class="buy-coffee-link" target="_blank">
+                        <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-coffee&logo=buy-me-a-coffee&logoColor=white" alt="Wesprzyj CapyPress na BuyCoffee.to">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
     </div>
 
-    <section>
-        <h2>Dlaczego CapyPress?</h2>
-        <ul>
-            <li>Napisany w Pythonie – czysty i wydajny kod.</li>
-            <li>Łatwa instalacja – rozpakuj i działaj.</li>
-            <li>Minimalistyczna architektura.</li>
-        </ul>
-    </section>
-
-    <div class="support">
-        <h3>Wesprzyj projekt</h3>
-        <p>Jeśli CapyPress ułatwia Ci pracę, postaw mi kawę!</p>
-        <a href="https://buycoffee.to/TWÓJ_LOGIN" target="_blank">Wspieram na BuyCoffee.to</a>
-    </div>
 </body>
 </html>
